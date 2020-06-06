@@ -1,0 +1,53 @@
+{
+  "name": "Text Sync",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "128": "icons/icon-128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "commands": {
+    "generate-qrcode": {
+      "suggested_key": {
+        "default": "Alt+V",
+        "linux": "Alt+V"
+      },
+      "description": "Toggle feature foo"
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+X",
+        "windows": "Alt+X",
+        "chromeos": "Alt+X",
+        "linux": "Alt+X"
+      }
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "clipboardRead",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "options_ui": {
+    "page": "qrcode.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon-19.png",
+      "38": "icons/icon-38.png"
+    },
+    "default_title": "Extension Boilerplate",
+    "default_popup": "popup.html"
+  }
+}
+
+
