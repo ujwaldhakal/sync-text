@@ -18,8 +18,12 @@ If you dont use keep,wunderlist,note in your extension or any desktop app this c
 ## Usage
 * Copy any text normal as you do like `CTRL+C` or via mouse
 * Press `ALT+P` which will generate QR Code of your copied text
-* Or `ALT+X` which will open the popup with text field to generate QR Code. 
+* Or `ALT+X` which will open the popup with text field to generate QR Code.
 
-### Template used
-I have used [this boilerplate](https://github.com/EmailThis/extension-boilerplate/) for starting which was really helpful go check it out [here](https://github.com/EmailThis/extension-boilerplate/)
+* ![Watch the video](https://i.imgur.com/XxsWmTY.gif) 
+
+
+### Packages Used
+* [Boilerplate](https://github.com/EmailThis/extension-boilerplate/) for starter template
+* [QR CODE generator](https://github.com/soldair/node-qrcode)
  
