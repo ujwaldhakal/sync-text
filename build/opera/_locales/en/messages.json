@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Sync Text",
+    "description": "Generates QR Code with shortcut key and which can be copy via mobile"
+  },
+  "appDescription": {
+    "message": "Generates QR Code with shortcut key and which can be copy via mobile either use `ALT+V` to generated copied text or `ALT+X to open popup`",
+    "description": "Generates QR Code with shortcut key and which can be copy via mobile either use `ALT+V` to generated copied text or `ALT+X to open popup`"
+  },
+  "btnTooltip": {
+    "message": "Sync Text",
+    "description": "Generates QR Code with shortcut key and which can be copy via mobile either use `ALT+V` to generated copied text or `ALT+X to open popup`"
+  }
+}

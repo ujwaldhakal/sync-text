@@ -7,7 +7,7 @@ If you dont use keep,wunderlist,note in your extension or any desktop app this c
 * Clone this repo
 * `npm install`
 * `npm run build`
-* Load extension from `build/chrome`
+* Load extension from `build/chrome` 
 
 ## Development
 * `npm run chrome-watch`
